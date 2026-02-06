@@ -14,6 +14,7 @@ git clone https://github.com/ZihaoChen0319/CCM_Registration
 cd CCM_Registration
 pip install -r requirements.txt
 ```
+We recommend using a virtual environment with Python ≥ 3.8.
 
 ---
 
