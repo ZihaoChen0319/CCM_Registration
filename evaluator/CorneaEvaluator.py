@@ -1,4 +1,3 @@
-from evaluator.MetricsLandmarks import analyze_results, cal_dis
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -14,6 +13,7 @@ from models.SpatialTransformer import SpatialTransformer
 from loss.KeypointLoss import loss_func_keypoint_l1
 from evaluator.MetricsSeg import compute_dice_torch
 from evaluator.MetricsImage import compute_mae, compute_rmse, compute_psnr, compute_ssim, MutualInformation, nmi_batch_masked, nmi_batch_masked_torch
+from evaluator.MetricsLandmarks import analyze_results, cal_dis
 from utils.ImageTransform import transform, matrix_to_flow_2d, cal_affine_matrix
 
 

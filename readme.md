@@ -42,7 +42,7 @@ You may use your own dataset by implementing a custom `Dataset` class, as long a
 - `num_keypoints` — number of valid keypoints
 
 #### Use Provided Data Loader
-A reference dataset implementation is provided in `data/`.
+A reference dataset implementation is provided in `data/`. The requirements of data include:
 - Each image must be stored in `.npy` or `.npz` format. Each `.npy/.npz` file should contain an image, corresponding landmarks and the number of keypoints.
 - A dataset JSON file must contain image pairs for: training, (optional) validation, and testing.
 

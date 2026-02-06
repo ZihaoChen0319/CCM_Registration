@@ -3,7 +3,7 @@ import os
 import time
 import sys
 
-from loss.DiceLoss import Dice
+
 import torch
 import torch.nn as nn
 import torchvision.transforms.functional as ttf
@@ -19,6 +19,7 @@ from data.CorneaDataLoader import CorneaDataset
 from models.SpatialTransformer import SpatialTransformer
 from loss.KeypointLoss import loss_func_keypoint_l1
 from loss.ImageIntensityLoss import NCC
+from loss.DiceLoss import Dice
 from utils.ImageTransform import get_homo_coord, transform, matrix_to_flow_2d, cal_affine_matrix
 from evaluator.MetricsLandmarks import cal_dis
 from utils.Augmentation import generate_random_affine_matrix_2d
